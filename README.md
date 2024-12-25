@@ -8,6 +8,7 @@ Clone this repo first
 We suggest create a new Anaconda environment.
 ```
 conda create -n DROT python=3.8
+conda activate DROT
 #Install PyTorch
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
 ```
@@ -33,7 +34,7 @@ pip install .
 Install other tools
 ```
 conda install -c pytorch ignite 
-pip install tensorboard,matplotlib,xmltodict,pyglm,imageio,lpips,opencv-python
+pip install tensorboard matplotlib xmltodict pyglm imageio lpips opencv-python
 ```
 if some error occurs, the following tips may help:
 - GCC version should under 10
